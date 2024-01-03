@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Judul"
+        android:layout_marginBottom="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="Masukkan Judul Anda"
+        android:id="@+id/edt_judul"
+        android:minHeight="48dp"
+        android:layout_marginBottom="30dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:layout_marginBottom="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="Masukkan Deskripsi Pekerjaan Anda"
+        android:id="@+id/edt_Deskripsi"
+        android:minHeight="48sp"
+        android:layout_marginBottom="30dp"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ubah"
+        android:layout_gravity="center"
+        android:id="@+id/btn_ubah"/>
+</LinearLayout>

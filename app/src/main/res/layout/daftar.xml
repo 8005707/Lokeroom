@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Email Anda"
+        android:layout_marginBottom="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="namaanda@gmail.com"
+        android:id="@+id/edt_email"
+        android:minHeight="48dp"
+        android:layout_marginBottom="30dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginBottom="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="********"
+        android:id="@+id/edt_password"
+        android:minHeight="48sp"
+        android:layout_marginBottom="30dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+
+        android:text="Nama Lengkap"
+        android:layout_marginBottom="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="nama anda"
+        android:minHeight="48dp"
+        android:id="@+id/edt_nama"
+        android:layout_marginBottom="30dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+
+        android:text="Nomor Whatsapp"
+        android:layout_marginBottom="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="+628xx xxxx xxxx"
+        android:minHeight="48dp"
+        android:id="@+id/edt_nomor"
+        android:layout_marginBottom="30dp"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:id="@+id/btn_daftar"
+        android:text="Daftar Akun"></Button>
+</LinearLayout>
